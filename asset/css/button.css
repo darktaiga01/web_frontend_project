@@ -1,0 +1,21 @@
+.btn--primary {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: 1px solid #ffc745;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 12px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px var(--primary_dark_color);
+  min-width: 124px;
+}
+.btn--primary:hover {
+  background-color: var(--second-color);
+}
+.btn--primary:active {
+  position: relative;
+  top: 1px;
+}

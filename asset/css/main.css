@@ -1,0 +1,335 @@
+.header {
+  height: var(--header-height);
+  background-image: linear-gradient(0, #fe6433, #f53e2d);
+  min-width: 980px;
+}
+.header__navbar {
+  /* dua 2 ul len cung 1 hang va cach ra 2 dau */
+  display: flex;
+  justify-content: space-between;
+}
+.header__navbar-list {
+  /* mat dau cham */
+  list-style: none;
+  padding-left: 0;
+  margin: 4px 0 0 0;
+}
+.header__navbar-item {
+  margin: 0 8px;
+  position: relative;
+  min-height: 26px;
+}
+.header__navbar-item,
+.header__navbar-item-link {
+  /* cac li nam tren cung 1 hang */
+  display: inline-block;
+  font-size: 1.3rem; /*15px*/
+  color: var(--white-color);
+  text-decoration: none; /*bo dau gach chan cua the a*/
+  font-weight: 300;
+}
+.header__navbar-item,
+.header__navbar-item-link,
+.header__navbar-icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+.header__navbar-icon-link:nth-child(2) {
+  margin-left: 5px;
+}
+.header__navbar-item:hover,
+.header__navbar-icon-link:hover,
+.header__navbar-item-link:hover {
+  cursor: pointer;
+  color: #ffc745;
+}
+
+.header__navbar-item--strong {
+  font-weight: 400;
+}
+
+.header__navbar-item-separate::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1.5px;
+  height: 16px;
+  background-color: #fb9086;
+  right: -9px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header__navbar-icon-link {
+  color: var(--white-color);
+  text-decoration: none; /*bo gach chan cho icon*/
+}
+
+.header__navbar-icon {
+  font-size: 1.75rem;
+  margin: 0 4px;
+}
+.header__navbar-title--no-pointer {
+  cursor: text;
+  color: var(--white-color);
+}
+
+/* header with search */
+
+.header-with-search {
+  height: var(--navbar-with-search-height);
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+.header__logo {
+  /* sap xep hang ngang */
+  width: 400px;
+  padding-right: 150px;
+  height: auto;
+  display: inline;
+}
+.header__search {
+  /* chiem het phan chieu ngang con lai */
+  flex: 1;
+  width: 250px;
+  height: 40px;
+  background-color: var(--white-color);
+  align-items: center;
+  display: inline-flex;
+  border-radius: 2px;
+  align-items: center;
+}
+
+.header__cart {
+  width: 150px;
+  text-align: center;
+}
+.header__cart-wrap {
+  position: relative;
+  /* khong ke thua het the cha */
+  display: inline-block;
+  padding: 0 12px;
+  cursor: pointer;
+}
+.header__cart-wrap:hover .header__cart-list {
+  display: block;
+}
+.header__cart-list {
+  position: absolute;
+  top: 68px;
+  right: 34px;
+  width: 500px;
+  border-radius: 2px;
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+  display: none;
+  animation: fadeIn ease-in 0.6s;
+  z-index: 11;
+  cursor: default;
+}
+/* lam cai mui ten cho gio hang  */
+.header__cart-list::after {
+  cursor: pointer;
+  content: "";
+  position: absolute;
+  right: 3px;
+  top: -26px;
+  border-width: 16px 20px;
+  border-style: solid;
+  border-color: transparent transparent var(--white-color) transparent;
+}
+/* ---------------------------- */
+.header__cart-list--no-cart {
+  padding: 22px 0;
+}
+.header__cart-no-cart-img {
+  display: none;
+  width: 54%;
+}
+.header__cart-no-cart-msg {
+  display: none;
+  /* de cho no xuong dong */
+  /* display: block; */
+  font-size: 1.4rem;
+  margin-top: 14px;
+  color: var(--text-color);
+}
+.header__cart-list--no-cart .header__cart-no-cart-msg,
+.header__cart-list--no-cart .header__cart-no-cart-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__cart-notice {
+  position: absolute;
+  top: 12px;
+  right: 17px;
+  padding: 1px 7px;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--white-color);
+}
+.header__cart-heading {
+  text-align: left;
+  margin: 8px 0 8px 8px;
+  font-size: 1.4rem;
+  color: #999;
+  font-weight: 400;
+}
+.header__cart-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__cart-item-body {
+  /* hang ngang */
+  display: flex;
+  /* 2 thang cach xa nhau */
+  justify-content: space-between;
+}
+.header__cart-item-desc {
+  color: #757575;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.header__cart-item-remove {
+  color: var(--text-color);
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+.header__cart-item-remove:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+.header__cart-list-item {
+  width: 100%;
+  /* mat dau cham */
+  list-style: none;
+  padding-left: 0;
+}
+.header__cart-item {
+  display: flex;
+  /* can giua chieu doc */
+  align-items: center;
+}
+.header__cart-item:hover {
+  background-color: #f8f8f8;
+}
+.header__cart-item-info {
+  width: 100%;
+  margin-right: 12px;
+}
+.header__cart-item-name {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin: 0;
+}
+.header__cart-item-price {
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+.header__cart-item-mutiply {
+  font-size: 0.9rem;
+  margin: 0 4px;
+  color: #757575;
+}
+.header__cart-item-qnt {
+  font-size: 1.2rem;
+  color: #757575;
+}
+.header__cart-item-img {
+  height: 70px;
+  width: 60px;
+  margin: 8px;
+  border: 1px solid #e8e8e8;
+}
+.header-with-search .header__cart {
+  width: auto;
+  display: inline-flex;
+  float: right;
+  margin: 0;
+  text-align: center;
+}
+.header__cart-icon {
+  color: var(--white-color);
+  font-size: 2.3rem;
+  padding-right: 30px;
+  margin-top: 22px;
+}
+.header__cart-view-cart {
+  float: right;
+  margin: 10px 12px 12px 0;
+}
+.header__cart-view-cart:hover {
+  background-color: #f05d41;
+}
+.header__search-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  padding: 0 16px;
+  border-radius: 3px;
+}
+
+.header__search-btn {
+  background-color: #f53e2d;
+  border: none;
+  height: 34px;
+  width: 60px;
+  border-radius: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.header__search-btn:hover {
+  cursor: pointer;
+  background-color: #ec593c;
+}
+.header__search-btn-icon {
+  font-size: 1.4rem;
+  color: var(--white-color);
+}
+
+.header__search-option {
+  position: absolute;
+  right: -20px;
+  top: 100%;
+  width: 150px;
+  list-style: none;
+}
+.header__search-option-item {
+  background-color: var(--white-color);
+  border-radius: 3px;
+  padding: 8px 8px;
+}
+.header__search-option-item span {
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+
+.header__search-option-item i {
+  font-size: 1.4rem;
+  color: #f53e2d;
+}
+section {
+  max-width: 1700px;
+  width: 100%;
+  min-width: 980px;
+  margin: 0 auto 0;
+  position: relative;
+}
+div .cart h3 {
+  font-size: 20px;
+  margin: 0px 0;
+}
+div .cart p {
+  margin: 0;
+}

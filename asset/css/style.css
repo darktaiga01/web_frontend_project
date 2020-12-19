@@ -1,0 +1,26 @@
+hr.dashed {
+  border-top: 3px dashed #bbb;
+  margin-bottom: 15px;
+}
+.area-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 1px;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 1691px;
+  height: 400px;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari 3-8 */
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.openModal {
+  display: inline-block;
+}

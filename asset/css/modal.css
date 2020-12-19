@@ -1,0 +1,164 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  z-index: 11;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* ----------------------------------------------- */
+
+/* in side modal */
+.product-view {
+  position: absolute; /*định vị tuyệt đối*/
+  width: 800px;
+  height: auto;
+  padding: 20px;
+  border: 3px solid #005f86; /*viền */
+  top: 50%;
+  left: 50%;
+  /* bo góc */
+  border-radius: 4px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+  background-color: #fefefe;
+  /* 2d */
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  background-attachment: #ffffff;
+  overflow: auto; /* Enable scroll if needed */
+}
+.close-btn {
+  position: absolute; /*định vị tuyệt đối*/
+  right: 0;
+  top: 0;
+  margin: 10px;
+}
+.product-big-image {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  float: left;
+}
+.product-big-image img {
+  width: 100%;
+  border: 3px solid #005f86;
+}
+.product-big-desc {
+  width: 48%;
+  height: auto;
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+}
+.product-big-desc h2 {
+  margin: 0;
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
+.product-big-desc h5 {
+  color: #005f86;
+  font-weight: lighter;
+  margin: 0;
+  padding-bottom: 8px;
+  font-size: 18px;
+}
+.product-big-desc h6 {
+  width: 100%;
+  float: left;
+  margin: 0px;
+  padding-bottom: 15px;
+}
+.product-big-desc h6 a {
+  color: #b1b1b1;
+  margin-right: 25px;
+  font-size: 16px;
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+.priceModal {
+  width: 100%;
+  float: left;
+  padding-bottom: 15px;
+}
+.priceModal .oldprice {
+  font-size: 28px;
+  margin: 0px;
+  color: #a3a3a3;
+  border-bottom: 1px solid #333;
+  /* chỉ chạy dưới chân */
+  display: inline-block;
+  width: auto;
+}
+.priceModal .oldprice sup {
+  color: #005f86;
+  padding-left: 10px;
+  font-weight: lighter;
+}
+.priceModal .newprice {
+  font-size: 28px;
+  margin: 0px;
+  color: #333;
+  /* chỉ chạy dưới chân */
+  display: inline-block;
+  width: auto;
+}
+.priceModal .newprice abbr {
+  color: #005f86;
+}
+.buybutton {
+  width: 180px;
+  height: auto;
+  border-radius: 50px;
+  background-color: #005f86;
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+}
+.detailbutton {
+  width: 110px;
+  height: auto;
+  border-radius: 50px;
+  background-color: #005f86;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+}
+/* ------------------------------------------------- */

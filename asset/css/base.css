@@ -1,0 +1,66 @@
+:root {
+  --white-color: #fff;
+  --primary-color: #ff5a32;
+  --primary_dark_color: #e83222;
+  --second-color: #ff8b40;
+  --black-color: #000;
+  --text-color: #333; 
+  --header-height: 105px;
+  --navbar-height: 45px;
+  --navbar-with-search-height: calc(
+    var(--header-height) - var(--navbar-height)
+  );
+}
+* {
+  /* ke thua lai tat ca cac the chua boxsizing */
+  box-sizing: inherit;
+}
+
+html {
+  /* HACK 10px */
+  font-size: 62.5%;
+  /* do cao chu 16px */
+  line-height: 1.6rem;
+  /* sans sefif(font chu khong co chan) dc tai ve khi roboto khong dc tai ve */
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/* 
+.grid{
+  .row{
+    .collumn{
+
+    }
+  }
+} */
+/* 
+reponsive */
+.grid {
+  width: 1300px;
+  max-width: 100%;
+  /* tu dong can giua */
+  margin: 0 auto;
+}
+.grid__full-width {
+  width: 100%;
+}
+/* nhung con nam trong class nay se nam tren 1 hang ngang, ai vuot qua se tu xuong dong */
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* test */
+.grid__collumn-2{
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 16.6667%;
+}
+.grid__collumn-10{
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 83.3333%;
+}
