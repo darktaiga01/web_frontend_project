@@ -1,80 +1,99 @@
 div.scrollmenu {
-  background-color: white;
+  background-color: #F5F5F5;
   overflow: auto;
   white-space: nowrap;
   margin-left: 80px;
   margin-right: 90px;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   overflow-y: hidden; /* Hide horizontal scrollbar */
+  padding-bottom: 25px;
 }
 div.scrollmenu .parent-div {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+display: inline-block;
+color: white;
+text-align: center;
+text-decoration: none;
 }
 div.scrollmenu .parent-div .son-div {
-  padding: 10px;
+padding: 10px;
 }
 div.scrollmenu .parent-div .son-div a {
-  display: inline-block;
+display: inline-block;
+width: 270px;
+height: 390px;
+cursor: pointer;
 }
-div.scrollmenu .parent-div .son-div a:hover {
-  background-color: #777;
+/*div.scrollmenu .parent-div .son-div a:hover {*/
+/*  background-color: #777;*/
+/*}*/
+.scrollmenu__horizal-item{
+  width: 280px;
+  height: 390px;
 }
-
+.scrollmenu__horizal-item a{
+  cursor: pointer;
+}
 div .left-turn {
   position: absolute;
-  left: auto;
-  margin-top: 370px;
-  margin-left: 15px;
+  left: 20px;
+  margin-top: 387px;
+  margin-left: 0;
 }
-
+.leftArrow__icon{
+  font-size: 5rem;
+  color: #003245;
+  text-shadow: 1px 1px 1px #ccc;
+}
+.rightArrow__icon{
+  font-size: 5rem;
+  color: #003245;
+  text-shadow: 1px 1px 1px #ccc;
+}
 div .left-turn a {
   display: inline-block;
+  cursor: pointer;
 }
-div .left-turn a:hover {
-  background-color: #777;
+div .left-turn a:hover .leftArrow__icon{
+  color: var(--primary-color);
 }
 
 div .left-turn2 {
   position: absolute;
-  left: auto;
+  left: 29px;
   margin-top: 170px;
-  margin-left: 15px;
 }
 div .left-turn2 a {
   display: inline-block;
 }
-div .left-turn2 a:hover {
-  background-color: #777;
+div .left-turn2 a:hover .leftArrow2__icon{
+  color: var(--primary-color);
 }
 
 div .right-turn {
   position: absolute;
-  right: 30px;
-  margin-top: 370px;
-  margin-right: 15px;
+  right: 29px;
+  margin-top: 388px;
+  margin-right: 0;
 }
 div .right-turn a {
   display: inline-block;
+  cursor: pointer;
 }
-div .right-turn a:hover {
-  background-color: #777;
+.right-turn a:hover .rightArrow__icon{
+  color: var(--primary-color);
 }
 
 div .right-turn2 {
   position: absolute;
-  right: 30px;
+  right: 32px;
   margin-top: 170px;
-  margin-right: 15px;
 }
 div .right-turn2 a {
   display: inline-block;
 }
 
-div .right-turn2 a:hover {
-  background-color: #777;
+div .right-turn2 a:hover .rightArrow2__icon{
+  color: var(--primary-color);
 }
 
 .product-content {
