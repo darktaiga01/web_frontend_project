@@ -29,6 +29,8 @@ body {
   /* position: fixed;
   top: 0; */
   width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
 }
 .navbar .dropdown {
   display: none;
@@ -158,6 +160,12 @@ body {
     padding-left: 0;
     font-size: 25px;
   }
+  .category{
+    display: none;
+  }
+  .grid__collumn-10{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1264px) {
   .header__search {
@@ -189,6 +197,9 @@ body {
     line-height: 1.1rem;
     top: 14px;
     right: 3px;
+  }
+  .grid{
+    min-width: 980px;
   }
 }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
