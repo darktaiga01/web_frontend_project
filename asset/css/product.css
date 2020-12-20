@@ -1,0 +1,174 @@
+body {
+    background-color:  #f4f4f4;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.card {
+    margin: 35px 0;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 4px 4px rgba(0,0,0,0.05);
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.card > div {
+    padding: 4rem;
+}
+
+.card .product-image {
+    width: 40%;
+    margin-right: 15px;
+    
+}
+
+.card .product-detail {
+    width: 60%;
+    border-left: 1px solid #eee;
+}
+
+.card .product-detail .product-rating table tr td{
+    border-right: 1px solid black;
+    padding-right: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.card .product-detail .product-name{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+
+
+.card .product-detail .product-price {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 20px;
+    color: #bf081f;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+    margin: 8px 12px 0px 0px;
+}
+
+.score {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* .card .product-detail .product-name {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-weight: 500;
+    margin: 0;
+    vertical-align: sub;
+    max-height: 3rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    max-width: 41.5625rem;
+    font-size: 1.25rem;
+} */
+
+.container {
+    margin: 0 10%;
+    text-align:  justify;
+}
+
+.body {
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+
+}
+
+.product-detail .product-button {
+    outline: none;
+    cursor: pointer;
+    color: #999;
+    text-transform: uppercase;
+    border: 1px solid currentColor;
+    padding: 1rem 3rem;
+    width: 190px;
+    height: 50px;
+    font-size: 15px;
+    display: inline;
+    margin-right: 12px;
+}
+
+.button {
+    margin-top: 2rem;   
+}
+
+.product-detail .product-select button {
+    cursor: pointer;
+    margin: 8px 12px 0px 0px;
+    padding: 8px 12px;
+    color: rgb(36, 36, 36);
+    font-size: 13px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 6px;
+}
+
+.thumbal {
+    border: 0.5px solid rgb(199, 199, 199);
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+
+}
+
+.product-image .other-image {
+    align-self: center;
+}
+
+.product-info-box {
+    width: 50%;
+}
+
+.product-video-box {
+    width: 50%;
+}
+
+.card .product-info-box .product-info-box-detail table {
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #f4efef;
+    border-collapse: collapse;
+    
+}
+
+.card .product-info-box .product-info-box-detail table, td, th{
+    border: 1px solid #f4efef;
+    border-collapse: collapse;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.product-info-box-title, .product-video-box-title {
+    width: 100%;
+    float: left;
+    color: #c69a39;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px;
+}
+
+.item-serial {
+    margin-right: 30px;
+}
