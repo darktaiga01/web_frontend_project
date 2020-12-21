@@ -18,10 +18,27 @@
     padding: 10px 10px;
     width: 100%;
     border: 1px solid #eee;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    /*neu co chuyen dong lquan den transform thi op cai linear vao chuyen dong trong 0.1s*/
+    transition: transform linear 0.1s;
+    will-change: transform;
+}
+.section-category-item__two:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.section-category-item__grid{
+    display: inline-block;
+    width: 150px;
+    height: 175px;
+    margin-top: 10px;
+    padding: 6px 0;
 }
 .section-category-item__grid-img{
-    width: 150px;
-    height: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    padding-top: 100%;
 }
 .section-category-list__ul{
     overflow: auto;
@@ -43,10 +60,22 @@
     padding: 80px 30px 0 30px;
 }
 .section-category-item__grid-name{
-    font-size: 1.6rem;
-    color: var(--text-color);
-    font-weight: 300;
-    line-height: 40px;
+    /*font-size: 1.4rem;*/
+    /*color: var(--text-color);*/
+    /*font-weight: 200;*/
+    /*line-height: 40px;*/
+    margin: 20px 0 0 0;
+    color: rgba(0,0,0,.8);
+    font-size: 1.3rem;
+    text-decoration: none;
+    line-height: 1.6rem;
+    max-height: 2.5rem;
+    word-break: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 /*.section-category__content{*/
 /*    !*display: flex;*!*/
