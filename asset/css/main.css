@@ -1,6 +1,6 @@
 .header {
   height: var(--header-height);
-  background-image: linear-gradient(0, #fe6433, #f53e2d);
+  background-image: linear-gradient(0, var(--primary-color), var(--second-color));
   min-width: 980px;
 }
 .header__navbar {
@@ -41,7 +41,7 @@
 .header__navbar-icon-link:hover,
 .header__navbar-item-link:hover {
   cursor: pointer;
-  color: #ffc745;
+  color: var(--light-text-color);
 }
 
 .header__navbar-item--strong {
@@ -54,7 +54,7 @@
   position: absolute;
   width: 1.5px;
   height: 16px;
-  background-color: #fb9086;
+  background-color: var(--third-color);
   right: -9px;
   top: 50%;
   transform: translateY(-50%);
@@ -169,8 +169,8 @@
   font-size: 1.4rem;
   line-height: 1.4rem;
   border-radius: 10px;
-  border: 2px solid var(--primary-color);
-  color: var(--primary-color);
+  border: 2px solid var(--third-color);
+  color: var(--third-color);
   background-color: var(--white-color);
 }
 .header__cart-heading {
@@ -281,7 +281,7 @@
 }
 
 .header__search-btn {
-  background-color: #f53e2d;
+  background-color: var(--third-color);
   border: none;
   height: 34px;
   width: 60px;
@@ -291,7 +291,7 @@
 }
 .header__search-btn:hover {
   cursor: pointer;
-  background-color: #ec593c;
+  background-color: var(--primary-color);
 }
 .header__search-btn-icon {
   font-size: 1.4rem;

@@ -49,22 +49,23 @@ body {
   padding: 0 15px;
   line-height: 40px;
   font-size: 20px;
-  background: linear-gradient(0, #fe6433, #f53e2d);
+  /* background: linear-gradient(0, #fe6433, #f53e2d); */
   transition: 0.5s;
 }
 .navbar ul li a:hover,
 .navbar ul li a.active {
-  color: #ffc745;
+  color: var(--light-text-color);
 }
 .navbar ul ul {
   /* cố định các thẻ */
   position: absolute;
   top: 90px;
-  border-top: 3px solid #ffc745;
+  border-top: 3px solid var(--second-color);
   opacity: 0;
   /* ẩn các sub menu */
   visibility: hidden;
-  margin-top: 21px;
+  margin-top: 15px;
+  /* background-color: var(--primary-color); */
 }
 /* hover hiện submenu */
 .navbar ul li:hover > ul {
@@ -89,12 +90,13 @@ body {
   display: list-item;
   /* định vị vị trí submenu */
   position: relative;
-  border: 1px solid #003245;
+  border: 1px solid #ddd;
   border-top: none;
+  background-color: var(--primary-color);
 }
 /* cách đều các sub menu */
 .navbar ul ul li a {
-  line-height: 50px;
+  line-height: 40px;
 }
 /* tắt viền trên của cái subsub menu */
 .navbar ul ul ul {
@@ -118,15 +120,15 @@ body {
   z-index: 100;
   position: fixed;
   width: 100%;
-  background-image: linear-gradient(0, #fe6433, #f53e2d);
+  background-image: linear-gradient(0, var(--primary-color), var(--second-color));
   width: 100%;
   padding: 0 118px;
   height: 70px;
 }
 
 .navbar-fixed .navbar ul ul {
-  top: 50px;
-  margin-top: 0px;
+  top: 72px;
+  margin-top: -12px;
 }
 
 .grid-fixed {
