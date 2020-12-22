@@ -1,3 +1,11 @@
+.new-products{
+  padding-top: 15px;
+  margin-top: 53px;
+  background-color: white;
+  padding-bottom: 25px;
+  margin-bottom: 36px;
+  border-radius: 2.5px;
+}
 div.scrollmenu {
   background-color: #F5F5F5;
   overflow: auto;
@@ -6,7 +14,7 @@ div.scrollmenu {
   margin-right: 90px;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   overflow-y: hidden; /* Hide horizontal scrollbar */
-  padding-bottom: 25px;
+  padding-bottom: 7px;
 }
 div.scrollmenu .parent-div {
 display: inline-block;
@@ -71,7 +79,7 @@ div .left-turn2 a:hover .leftArrow2__icon{
 div .left-turn3 {
   position: absolute;
   left: 9px;
-  margin-top: 336px;
+  margin-top: 298px;
 }
 div .left-turn3 a {
   display: inline-block;
@@ -110,7 +118,7 @@ div .right-turn2 a:hover .rightArrow2__icon{
 div .right-turn3 {
   position: absolute;
   right: 4px;
-  margin-top: 336px;
+  margin-top: 298px;
 }
 div .right-turn3 a {
   display: inline-block;

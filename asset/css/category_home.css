@@ -1,3 +1,10 @@
+.section-category{
+    margin-top: 39px;
+    background-color: var(--white-color);
+    padding-bottom: 44px;
+    border-radius: 2px;
+}
+
 .section-category-list__header__title{
     font-size: 1rem;
     color: rgba(0,0,0,.54);
@@ -58,7 +65,7 @@
 }
 
 .section-category-main{
-    padding: 80px 50px 0 50px;
+    padding: 38px 50px 0 50px;
 }
 .section-category-item__grid-name{
     /*font-size: 1.4rem;*/
