@@ -1,0 +1,94 @@
+.section-category-list__header__title{
+    font-size: 1rem;
+    color: rgba(0,0,0,.54);
+    font-weight: 500;
+}
+.section-category__header{
+    padding: 0 50px 30px;
+    text-align: left;
+}
+.section-category__header__title{
+    color: #737373;
+    font-size: 1.9rem;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-category-item__two{
+    padding: 10px 10px;
+    width: 100%;
+    border: 1px solid #eee;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    /*neu co chuyen dong lquan den transform thi op cai linear vao chuyen dong trong 0.1s*/
+    transition: transform linear 0.1s;
+    will-change: transform;
+}
+.section-category-item__two:hover{
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.3);
+    /*z-index: 2;*/
+}
+.section-category-item__grid{
+    display: inline-block;
+    width: 150px;
+    height: 175px;
+    margin-top: 10px;
+    padding: 6px 0;
+}
+.section-category-item__grid-img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    padding-top: 100%;
+}
+.section-category-list__ul{
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.section-category-item{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.section-category-main{
+    padding: 80px 50px 0 50px;
+}
+.section-category-item__grid-name{
+    /*font-size: 1.4rem;*/
+    /*color: var(--text-color);*/
+    /*font-weight: 200;*/
+    /*line-height: 40px;*/
+    margin: 20px 0 0 0;
+    color: rgba(0,0,0,.8);
+    font-size: 1.3rem;
+    text-decoration: none;
+    line-height: 1.6rem;
+    max-height: 2.5rem;
+    word-break: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+/*.section-category__content{*/
+/*    !*display: flex;*!*/
+/*}*/
+
+/*.section-category__arrow--prev{*/
+/*    top: 200px;*/
+/*    left: 15px;*/
+/*    position: absolute;*/
+/*}*/
+/*.section-category__arrow--next{*/
+/*    top: 200px;*/
+/*    right: 15px;*/
+/*    position: absolute;*/
+/*}*/

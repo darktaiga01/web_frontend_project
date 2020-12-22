@@ -1,260 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./asset/css/normalize.min.css" />
     <link rel="stylesheet" href="./asset/css/base.css" />
     <link rel="stylesheet" href="./asset/css/main.css" />
     <link rel="stylesheet" href="./asset/css/nav_bar.css" />
-    <link rel="stylesheet" href="./asset/css/nav_bar_bt.css" />
     <link rel="stylesheet" href="./asset/css/button.css" />
     <link rel="stylesheet" href="./asset/css/slideshow.css">
-      <link rel="stylesheet" href="./asset/css/shop.css" />
-      <link rel="stylesheet" href="./asset/css/btn.css" />
+    <link rel="stylesheet" href="./asset/css/shop.css" />
+    <link rel="stylesheet" href="./asset/css/category_home.css" />
+    <link rel="stylesheet" href="./asset/css/btn.css" />
     <link
-      rel="stylesheet"
-      href="./asset/font/fontawesome-free-5.15.1-web/css/all.min.css"
+            rel="stylesheet"
+            href="./asset/font/fontawesome-free-5.15.1-web/css/all.min.css"
     />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <link rel="stylesheet" href="./asset/css/cart">
-        <link rel="stylesheet" href="./asset/css/style.css">
-        <link rel="stylesheet" href="./asset/css/horizontal_div.css">
-        <link rel="stylesheet" href="./asset/css/product-card.css">
-        <link rel="stylesheet" href="./asset/css/modal.css">
-        <link rel="stylesheet" href="./asset/css/footer.css">
-  </head>
-  <body>
-    <!-- block element modifier -->
-    <div class="app">
-      <header class="header">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/horizontal_div.css">
+    <link rel="stylesheet" href="./asset/css/modal.css">
+    <link rel="stylesheet" href="./asset/css/footer.css">
+</head>
+<body>
+<!-- block element modifier -->
+<div class="app">
+    <header class="header">
         <div id="grid_fixed" class="grid">
-          <nav class="header__navbar">
-            <ul class="header__navbar-list">
-              <li class="header__navbar-item header__navbar-item-separate">
-                Vào cửa hàng trên ứng dụng F8 shop
-              </li>
-              <li class="header__navbar-item">
-                <span class="header__navbar-title--no-pointer">Kết nối</span>
-                <a href="" class="header__navbar-icon-link">
-                  <i class="header__navbar-icon fab fa-facebook-square"></i>
-                </a>
-                <a href="" class="header__navbar-icon-link">
-                  <i class="header__navbar-icon fab fa-instagram-square"></i>
-                </a>
-              </li>
-            </ul>
-
-            <ul class="header__navbar-list">
-              <li class="header__navbar-item">
-                <a href="" class="header__navbar-item-link">
-                  <i class="header__navbar-icon fas fa-bell"></i>
-                  Thông báo
-                  <!-- <div class="header__notify">
-                    <header class="header__notify-header">
-                      <h3>Thông báo mới nhận</h3>
-                    </header>
-                  </div> -->
-                </a>
-              </li>
-              <li class="header__navbar-item">
-                <a href="" class="header__navbar-item-link">
-                  <i class="header__navbar-icon fas fa-question-circle"></i>
-                  Trợ giúp
-                </a>
-              </li>
-              <li
-                class="header__navbar-item header__navbar-item--strong header__navbar-item-separate"
-              >
-                Đăng ký
-              </li>
-              <li class="header__navbar-item header__navbar-item--strong">
-                Đăng nhập
-              </li>
-            </ul>
-          </nav>
-          <div id="nav_bar" class="header-with-search">
-            <div class="navbar">
-              <nav class="main_nav">
-                <div class="header__logo">
-                  <label class="logo">CodingNepal</label>
-                </div>
-                <div class="header__search">
-                  <input
-                    type="text"
-                    placeholder="Tìm kiếm"
-                    class="header__search-input"
-                  />
-
-                  <button class="header__search-btn">
-                    <i class="header__search-btn-icon fas fa-search"></i>
-                  </button>
-                </div>
-                <ul>
-                  <li><a class="active" href="#">Home</a></li>
-                  <li>
-                    <a href="#"
-                      >Features
-                      <i class="fas fa-caret-down"></i>
-                    </a>
-                    <ul>
-                      <li><a href="./shop.html">Python</a></li>
-                      <li><a href="#">JQuery</a></li>
-                      <li><a href="#">Javascript</a></li>
-                    </ul>
-                  </li>
-                  <li class="li_menu3">
-                    <a href="#"
-                      >Web Design
-                      <i class="fas fa-caret-down"></i>
-                    </a>
-                    <ul>
-                      <li><a href="#">Front End</a></li>
-                      <li><a href="#">Back End</a></li>
-                      <li>
-                        <a href="#"
-                          >Others
-                          <i class="fas fa-caret-right"></i>
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item-separate">
+                        Vào cửa hàng trên ứng dụng F8 shop
+                    </li>
+                    <li class="header__navbar-item">
+                        <span class="header__navbar-title--no-pointer">Kết nối</span>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-facebook-square"></i>
                         </a>
-                        <ul>
-                          <li><a href="#">Links</a></li>
-                          <li><a href="#">Works</a></li>
-                          <li><a href="#">Status</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="li_menu4"><a href="#">Feedback</a></li>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-instagram-square"></i>
+                        </a>
+                    </li>
                 </ul>
-                <div class="header__cart">
-                  <div class="header__cart-wrap">
-                    <i class="header__cart-icon fas fa-shopping-cart"></i>
-                    <span class="header__cart-notice">3</span> 
-                    <!-- no cart: header__cart-list--no-cart -->
-                    <div class="header__cart-list">
-                      <img src="./asset/img/no_cart.png" alt="" class="header__cart-no-cart-img">
-                      <span class="header__cart-no-cart-msg">
-                        Chưa có sản phẩm
-                      </span>
-                      <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
-                      <ul class="header__cart-list-item" style="padding-right: 10px; margin: 0;">
-                        <!-- cart item -->
-                        <li class="header__cart-item" style="display: flex;">
-                          <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpg" alt="" class="header__cart-item-img">
-                          <div class="header__cart-item-info">
-                            <div class="header__cart-item-header">
-                              <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
-                              <div class="header__cart-item-price-wrap">
-                                <span class="header__cart-item-price">2000000 d</span>
-                                <span class="header__cart-item-mutiply">x</span>
-                                <span class="header__cart-item-qnt">2</span>
-                              </div>
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fas fa-bell"></i>
+                            Thông báo
+                            <!-- <div class="header__notify">
+                                <header class="header__notify-header">
+                                  <h3>Thông báo mới nhận</h3>
+                                </header>
+                                </div> -->
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fas fa-question-circle"></i>
+                            Trợ giúp
+                        </a>
+                    </li>
+                    <li
+                            class="header__navbar-item header__navbar-item--strong header__navbar-item-separate"
+                    >
+                        Đăng ký
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--strong">
+                        Đăng nhập
+                    </li>
+                </ul>
+            </nav>
+            <div id="nav_bar" class="header-with-search">
+                <div class="navbar">
+                    <nav class="main_nav">
+                        <div class="header__logo">
+                            <label class="logo">CodingNepal</label>
+                        </div>
+                        <div class="header__search">
+                            <input
+                                    type="text"
+                                    placeholder="Tìm kiếm"
+                                    class="header__search-input"
+                            />
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fas fa-search"></i>
+                            </button>
+                        </div>
+                        <ul>
+                            <li><a class="active" href="#">Home</a></li>
+                            <li>
+                                <a href="#"
+                                >Features
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li><a href="./shop.html">Python</a></li>
+                                    <li><a href="#">JQuery</a></li>
+                                    <li><a href="#">Javascript</a></li>
+                                </ul>
+                            </li>
+                            <li class="li_menu3">
+                                <a href="#"
+                                >Web Design
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li><a href="#">Front End</a></li>
+                                    <li><a href="#">Back End</a></li>
+                                    <li>
+                                        <a href="#"
+                                        >Others
+                                            <i class="fas fa-caret-right"></i>
+                                        </a>
+                                        <ul>
+                                            <li><a href="#">Links</a></li>
+                                            <li><a href="#">Works</a></li>
+                                            <li><a href="#">Status</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="li_menu4"><a href="#">Feedback</a></li>
+                        </ul>
+                        <div class="header__cart" id="shop-cart">
+                            <div class="header__cart-wrap">
+                                <i class="header__cart-icon fas fa-shopping-cart"></i>
+                                <span class="header__cart-notice" id="count_item" data-count="0">3</span>
+                                <!-- no cart: header__cart-list--no-cart -->
+                                <div class="header__cart-list">
+                                    <img src="./asset/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                    <span class="header__cart-no-cart-msg">
+                                            Chưa có sản phẩm
+                                            </span>
+                                    <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                    <ul class="header__cart-list-item" style="padding-right: 10px; margin: 0;">
+                                        <!-- cart item -->
+                                        <li class="header__cart-item" style="display: flex;">
+                                            <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpg" alt="" class="header__cart-item-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-header">
+                                                    <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">2000000 d</span>
+                                                        <span class="header__cart-item-mutiply">x</span>
+                                                        <span class="header__cart-item-qnt">2</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                            <span class="header__cart-item-desc">
+                                                            Phan loai: Bac
+                                                            </span>
+                                                    <span class="header__cart-item-remove">Xoa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item" style="display: flex;">
+                                            <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpg" alt="" class="header__cart-item-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-header">
+                                                    <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">2000000 d</span>
+                                                        <span class="header__cart-item-mutiply">x</span>
+                                                        <span class="header__cart-item-qnt">2</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                            <span class="header__cart-item-desc">
+                                                            Phan loai: Bac
+                                                            </span>
+                                                    <span class="header__cart-item-remove">Xoa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item" style="display: flex;">
+                                            <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpg" alt="" class="header__cart-item-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-header">
+                                                    <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">2000000 d</span>
+                                                        <span class="header__cart-item-mutiply">x</span>
+                                                        <span class="header__cart-item-qnt">2</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                            <span class="header__cart-item-desc">
+                                                            Phan loai: Bac
+                                                            </span>
+                                                    <span class="header__cart-item-remove">Xoa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="header__cart-view-cart btn--primary">Xem gio hang</a>
+                                </div>
                             </div>
-                            <div class="header__cart-item-body">
-                              <span class="header__cart-item-desc">
-                                Phan loai: Bac
-                              </span>
-                              <span class="header__cart-item-remove">Xoa</span>
+                        </div>
+                        <!-- <div class="dropdown">
+                            <a id="icon_nav" href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
                             </div>
-                          </div>
-                        </li>
-                        <li class="header__cart-item" style="display: flex;">
-                          <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpg" alt="" class="header__cart-item-img">
-                          <div class="header__cart-item-info">
-                            <div class="header__cart-item-header">
-                              <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
-                              <div class="header__cart-item-price-wrap">
-                                <span class="header__cart-item-price">2000000 d</span>
-                                <span class="header__cart-item-mutiply">x</span>
-                                <span class="header__cart-item-qnt">2</span>
-                              </div>
-                            </div>
-                            <div class="header__cart-item-body">
-                              <span class="header__cart-item-desc">
-                                Phan loai: Bac
-                              </span>
-                              <span class="header__cart-item-remove">Xoa</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="header__cart-item" style="display: flex;">
-                          <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpg" alt="" class="header__cart-item-img">
-                          <div class="header__cart-item-info">
-                            <div class="header__cart-item-header">
-                              <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
-                              <div class="header__cart-item-price-wrap">
-                                <span class="header__cart-item-price">2000000 d</span>
-                                <span class="header__cart-item-mutiply">x</span>
-                                <span class="header__cart-item-qnt">2</span>
-                              </div>
-                            </div>
-                            <div class="header__cart-item-body">
-                              <span class="header__cart-item-desc">
-                                Phan loai: Bac
-                              </span>
-                              <span class="header__cart-item-remove">Xoa</span>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-
-                      <a href="#" class="header__cart-view-cart btn--primary">Xem gio hang</a>
-                    </div>
-                  </div>
-                  
+                            </div> -->
+                    </nav>
                 </div>
-                <!-- <div class="dropdown">
-                  <a id="icon_nav" href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div> -->
-              </nav>
             </div>
-          </div>
         </div>
-        
-      </header>
-      </div>
+    </header>
+</div>
+<section>
+    <div class="slideshow">
+        <div class="slideshow-item">
+            <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpg" alt="" class="slideshow-item-img">
+            <div class="slideshow-item-text">
+                <h5>China Nam, VN</h5>
+                <p>lokljashdfksajhdbcnsdakbclksacblksdkajdhjka kashkdjhsaklhxkjahsdkascnsakj</p>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="./asset/img/images/Banner-xiaomi2.jpg" alt="" class="slideshow-item-img">
+            <div class="slideshow-item-text">
+                <h5>Australia, VN</h5>
+                <p>lokljashdfksajhdbcnsdakbclksacblksdkajdhjka kashkdjhsaklhxkjahsdkascnsakj</p>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="./asset/img/images/XIaomiBanner1.jpg" alt="" class="slideshow-item-img">
+            <div class="slideshow-item-text">
+                <h5>Viet Nam, VN</h5>
+                <p>lokljashdfksajhdbcnsdakbclksacblksdkajdhjka kashkdjhsaklhxkjahsdkascnsakj</p>
+            </div>
+        </div>
+    </div>
+    <div class="section-category">
+        <div class="left-turn3">
+            <a id="leftArrow3">
+                <i class="leftArrow2__icon fas fa-chevron-left fa-4x" style="color: #003245; text-shadow: 1px 1px 1px #ccc;" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="right-turn3">
+            <a id="rightArrow3">
+                <i class="rightArrow2__icon fas fa-chevron-right fa-4x" style="color: #003245; text-shadow: 1px 1px 1px #ccc;" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="section-category-main">
+            <div class="section-category__header">
+                <label class="section-category__header__title">Danh mục</label>
+            </div>
+            <div class="section-category__content">
+                <div class="section-category-list">
+                    <ul class="section-category-list__ul">
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png)"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi ajsgdkashdakjshgcasugcashkgyit</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/Laptop-icon.jpg)"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="section-category-item">
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                            <div class="section-category-item__two">
+                                <a href="" class="section-category-item__grid">
+                                    <div class="section-category-item__grid-img" style="background-image: url(./asset/img/phone-icon.png); background-size: contain; background-repeat: no-repeat;"></div>
+                                    <p class="section-category-item__grid-name">Điện thoại Xiaomi</p>
+                                </a>
+                            </div>
+                        </li>
 
-      <section>
-        <div class="slideshow">
-          <div class="slideshow-item">
-              <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpg" alt="" class="slideshow-item-img">
-              <div class="slideshow-item-text">
-                  <h5>China Nam, VN</h5>
-                  <p>lokljashdfksajhdbcnsdakbclksacblksdkajdhjka kashkdjhsaklhxkjahsdkascnsakj</p>
-                  
-              </div>
-          </div>
-  
-          <div class="slideshow-item">
-              <img src="./asset/img/images/Banner-xiaomi2.jpg" alt="" class="slideshow-item-img">
-              <div class="slideshow-item-text">
-                  <h5>Australia, VN</h5>
-                  <p>lokljashdfksajhdbcnsdakbclksacblksdkajdhjka kashkdjhsaklhxkjahsdkascnsakj</p>
-                  
-              </div>
-          </div>
-          <div class="slideshow-item">
-              <img src="./asset/img/images/XIaomiBanner1.jpg" alt="" class="slideshow-item-img">
-              <div class="slideshow-item-text">
-                  <h5>Viet Nam, VN</h5>
-                  <p>lokljashdfksajhdbcnsdakbclksacblksdkajdhjka kashkdjhsaklhxkjahsdkascnsakj</p>
-  
-              </div>
-          </div>
-      </div>
-
-
-          <!-- san pham moi nhat -->
-      <div class="area-title">
+                    </ul>
+                </div>
+                <!--                <div class="section-category__arrow&#45;&#45;prev">-->
+                <!--                    <i class="leftArrow__icon fas fa-chevron-left fa-4x"></i>-->
+                <!--                </div>-->
+                <!--                <div class="section-category__arrow&#45;&#45;next">-->
+                <!--                    <i class="rightArrow__icon fas fa-chevron-right fa-4x"></i>-->
+                <!--                </div>-->
+            </div>
+        </div>
+    </div>
+    <!-- san pham moi nhat -->
+    <div class="area-title">
         <h2>Sản phẩm mới nhất</h2>
-      </div>
-          <hr class="dashed">
+    </div>
+    <hr class="dashed">
     <div>
         <div class="left-turn">
             <a id="leftArrow">
@@ -267,82 +450,6 @@
             </a>
         </div>
         <div class="scrollmenu" id="scrollmenu">
-                <div class="parent-div">
-                    <div class="son-div">
-                        <a class="home-product-item" onclick="openModal(2)">
-                            <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
-                            <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
-                            <div class="home-product-item__price">
-                                <span class="home-product-item__price-old">1.200.000đ</span>
-                                <span class="home-product-item__price-current">1.000.000đ</span>
-                            </div>
-                            <div class="home-product-item__action">
-                                <!--                      js add home-product-item__like--liked css to liked-->
-                                <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
-                                <div class="home-product-item__rating">
-                                    <i class="home-product-item__star-gold fas fa-star"></i>
-                                    <i class="home-product-item__star-gold fas fa-star"></i>
-                                    <i class="home-product-item__star-gold fas fa-star"></i>
-                                    <i class="home-product-item__star-gold fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
-                            </div>
-                            <!--                    <div class="home-product-item__origin">-->
-                            <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                            <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                            <!--                    </div>-->
-                            <!--                    <div class="home-product-item__favorite">-->
-                            <!--                      <i class="fas fa-check"></i>-->
-                            <!--                      Yêu thích-->
-                            <!--                    </div>-->
-                            <!--                    <div class="home-product-item__sale-off">-->
-                            <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                            <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                            <!--                    </div>-->
-                        </a>
-                    </div>
-                    <div class="son-div">
-                        <a class="home-product-item" onclick="openModal(2)">
-                            <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
-                            <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
-                            <div class="home-product-item__price">
-                                <span class="home-product-item__price-old">1.200.000đ</span>
-                                <span class="home-product-item__price-current">1.000.000đ</span>
-                            </div>
-                            <div class="home-product-item__action">
-                                <!--                      js add home-product-item__like--liked css to liked-->
-                                <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
-                                <div class="home-product-item__rating">
-                                    <i class="home-product-item__star-gold fas fa-star"></i>
-                                    <i class="home-product-item__star-gold fas fa-star"></i>
-                                    <i class="home-product-item__star-gold fas fa-star"></i>
-                                    <i class="home-product-item__star-gold fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
-                            </div>
-                            <!--                    <div class="home-product-item__origin">-->
-                            <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                            <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                            <!--                    </div>-->
-                            <!--                    <div class="home-product-item__favorite">-->
-                            <!--                      <i class="fas fa-check"></i>-->
-                            <!--                      Yêu thích-->
-                            <!--                    </div>-->
-                            <!--                    <div class="home-product-item__sale-off">-->
-                            <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                            <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                            <!--                    </div>-->
-                        </a>
-                    </div>
-                </div>
             <div class="parent-div">
                 <div class="son-div">
                     <a class="home-product-item" onclick="openModal(2)">
@@ -355,9 +462,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -367,18 +474,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
                 <div class="son-div">
@@ -392,9 +488,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -404,18 +500,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
             </div>
@@ -431,9 +516,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -443,18 +528,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
                 <div class="son-div">
@@ -468,9 +542,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -480,18 +554,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
             </div>
@@ -507,9 +570,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -519,18 +582,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
                 <div class="son-div">
@@ -544,9 +596,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -556,18 +608,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
             </div>
@@ -583,9 +624,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -595,18 +636,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
                 <div class="son-div">
@@ -620,9 +650,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -632,18 +662,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
             </div>
@@ -659,9 +678,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -671,18 +690,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
                 <div class="son-div">
@@ -696,9 +704,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -708,18 +716,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
             </div>
@@ -735,9 +732,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -747,18 +744,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
                 <div class="son-div">
@@ -772,9 +758,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -784,18 +770,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
             </div>
@@ -811,9 +786,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -823,18 +798,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
                 <div class="son-div">
@@ -848,9 +812,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -860,18 +824,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
             </div>
@@ -887,9 +840,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -899,18 +852,7 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
                 <div class="son-div">
@@ -924,9 +866,9 @@
                         <div class="home-product-item__action">
                             <!--                      js add home-product-item__like--liked css to liked-->
                             <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
                             <div class="home-product-item__rating">
                                 <i class="home-product-item__star-gold fas fa-star"></i>
                                 <i class="home-product-item__star-gold fas fa-star"></i>
@@ -936,34 +878,68 @@
                             </div>
                             <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                         </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
+
                     </a>
                 </div>
             </div>
-            
+            <div class="parent-div">
+                <div class="son-div">
+                    <a class="home-product-item" onclick="openModal(2)">
+                        <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
+                        <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">1.200.000đ</span>
+                            <span class="home-product-item__price-current">1.000.000đ</span>
+                        </div>
+                        <div class="home-product-item__action">
+                            <!--                      js add home-product-item__like--liked css to liked-->
+                            <span class="home-product-item__like home-product-item__like--liked">
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
+                            <div class="home-product-item__rating">
+                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
+                        </div>
+
+                    </a>
+                </div>
+                <div class="son-div">
+                    <a class="home-product-item" onclick="openModal(2)">
+                        <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
+                        <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">1.200.000đ</span>
+                            <span class="home-product-item__price-current">1.000.000đ</span>
+                        </div>
+                        <div class="home-product-item__action">
+                            <!--                      js add home-product-item__like--liked css to liked-->
+                            <span class="home-product-item__like home-product-item__like--liked">
+                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                    </span>
+                            <div class="home-product-item__rating">
+                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
+                        </div>
+
+                    </a>
+                </div>
             </div>
-  
         </div>
-    
-    
+    </div>
     <!-- ------------------------------------------------------ -->
-  
-  
-  
     <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpg" alt="Nature" class="responsive" >
-  
-    
     <!-- ban chay nhat -->
     <div class="area-title">
         <h2>Bán chạy nhất</h2>
@@ -982,43 +958,6 @@
         </div>
         <div class="scrollmenu" id="scrollmenu2">
             <div id="inner-horizal"></div>
-                <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
-                    <a class="home-product-item" onclick="openModal(2)">
-                        <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
-                        <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
-                        <div class="home-product-item__price">
-                            <span class="home-product-item__price-old">1.200.000đ</span>
-                            <span class="home-product-item__price-current">1.000.000đ</span>
-                        </div>
-                        <div class="home-product-item__action">
-                            <!--                      js add home-product-item__like--liked css to liked-->
-                            <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
-                            <div class="home-product-item__rating">
-                                <i class="home-product-item__star-gold fas fa-star"></i>
-                                <i class="home-product-item__star-gold fas fa-star"></i>
-                                <i class="home-product-item__star-gold fas fa-star"></i>
-                                <i class="home-product-item__star-gold fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
-                        </div>
-                        <!--                    <div class="home-product-item__origin">-->
-                        <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                        <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__favorite">-->
-                        <!--                      <i class="fas fa-check"></i>-->
-                        <!--                      Yêu thích-->
-                        <!--                    </div>-->
-                        <!--                    <div class="home-product-item__sale-off">-->
-                        <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                        <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                        <!--                    </div>-->
-                    </a>
-                </div>
             <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
                 <a class="home-product-item" onclick="openModal(2)">
                     <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
@@ -1030,9 +969,9 @@
                     <div class="home-product-item__action">
                         <!--                      js add home-product-item__like--liked css to liked-->
                         <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
+                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                </span>
                         <div class="home-product-item__rating">
                             <i class="home-product-item__star-gold fas fa-star"></i>
                             <i class="home-product-item__star-gold fas fa-star"></i>
@@ -1042,449 +981,433 @@
                         </div>
                         <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
                     </div>
-                    <!--                    <div class="home-product-item__origin">-->
-                    <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                    <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__favorite">-->
-                    <!--                      <i class="fas fa-check"></i>-->
-                    <!--                      Yêu thích-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__sale-off">-->
-                    <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                    <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                    <!--                    </div>-->
-                </a>
-            </div>
-            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
-                <a class="home-product-item" onclick="openModal(2)">
-                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
-                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
-                    <div class="home-product-item__price">
-                        <span class="home-product-item__price-old">1.200.000đ</span>
-                        <span class="home-product-item__price-current">1.000.000đ</span>
-                    </div>
-                    <div class="home-product-item__action">
-                        <!--                      js add home-product-item__like--liked css to liked-->
-                        <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
-                        <div class="home-product-item__rating">
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
-                    </div>
-                    <!--                    <div class="home-product-item__origin">-->
-                    <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                    <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__favorite">-->
-                    <!--                      <i class="fas fa-check"></i>-->
-                    <!--                      Yêu thích-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__sale-off">-->
-                    <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                    <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                    <!--                    </div>-->
-                </a>
-            </div>
-            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
-                <a class="home-product-item" onclick="openModal(2)">
-                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
-                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
-                    <div class="home-product-item__price">
-                        <span class="home-product-item__price-old">1.200.000đ</span>
-                        <span class="home-product-item__price-current">1.000.000đ</span>
-                    </div>
-                    <div class="home-product-item__action">
-                        <!--                      js add home-product-item__like--liked css to liked-->
-                        <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
-                        <div class="home-product-item__rating">
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
-                    </div>
-                    <!--                    <div class="home-product-item__origin">-->
-                    <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                    <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__favorite">-->
-                    <!--                      <i class="fas fa-check"></i>-->
-                    <!--                      Yêu thích-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__sale-off">-->
-                    <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                    <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                    <!--                    </div>-->
-                </a>
-            </div>
-            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
-                <a class="home-product-item" onclick="openModal(2)">
-                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
-                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
-                    <div class="home-product-item__price">
-                        <span class="home-product-item__price-old">1.200.000đ</span>
-                        <span class="home-product-item__price-current">1.000.000đ</span>
-                    </div>
-                    <div class="home-product-item__action">
-                        <!--                      js add home-product-item__like--liked css to liked-->
-                        <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
-                        <div class="home-product-item__rating">
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
-                    </div>
-                    <!--                    <div class="home-product-item__origin">-->
-                    <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                    <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__favorite">-->
-                    <!--                      <i class="fas fa-check"></i>-->
-                    <!--                      Yêu thích-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__sale-off">-->
-                    <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                    <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                    <!--                    </div>-->
-                </a>
-            </div>
-            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
-                <a class="home-product-item" onclick="openModal(2)">
-                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
-                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
-                    <div class="home-product-item__price">
-                        <span class="home-product-item__price-old">1.200.000đ</span>
-                        <span class="home-product-item__price-current">1.000.000đ</span>
-                    </div>
-                    <div class="home-product-item__action">
-                        <!--                      js add home-product-item__like--liked css to liked-->
-                        <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
-                        <div class="home-product-item__rating">
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
-                    </div>
-                    <!--                    <div class="home-product-item__origin">-->
-                    <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                    <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__favorite">-->
-                    <!--                      <i class="fas fa-check"></i>-->
-                    <!--                      Yêu thích-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__sale-off">-->
-                    <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                    <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                    <!--                    </div>-->
-                </a>
-            </div>
-            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
-                <a class="home-product-item" onclick="openModal(2)">
-                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
-                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
-                    <div class="home-product-item__price">
-                        <span class="home-product-item__price-old">1.200.000đ</span>
-                        <span class="home-product-item__price-current">1.000.000đ</span>
-                    </div>
-                    <div class="home-product-item__action">
-                        <!--                      js add home-product-item__like--liked css to liked-->
-                        <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
-                        <div class="home-product-item__rating">
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
-                    </div>
-                    <!--                    <div class="home-product-item__origin">-->
-                    <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                    <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__favorite">-->
-                    <!--                      <i class="fas fa-check"></i>-->
-                    <!--                      Yêu thích-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__sale-off">-->
-                    <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                    <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                    <!--                    </div>-->
-                </a>
-            </div>
-            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
-                <a class="home-product-item" onclick="openModal(2)">
-                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
-                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
-                    <div class="home-product-item__price">
-                        <span class="home-product-item__price-old">1.200.000đ</span>
-                        <span class="home-product-item__price-current">1.000.000đ</span>
-                    </div>
-                    <div class="home-product-item__action">
-                        <!--                      js add home-product-item__like--liked css to liked-->
-                        <span class="home-product-item__like home-product-item__like--liked">
-                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
-                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
-                      </span>
-                        <div class="home-product-item__rating">
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="home-product-item__star-gold fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
-                    </div>
-                    <!--                    <div class="home-product-item__origin">-->
-                    <!--                      <span class="home-product-item__brand">Whoo</span>-->
-                    <!--                      <span class="home-product-item__origin-name">Han Quoc</span>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__favorite">-->
-                    <!--                      <i class="fas fa-check"></i>-->
-                    <!--                      Yêu thích-->
-                    <!--                    </div>-->
-                    <!--                    <div class="home-product-item__sale-off">-->
-                    <!--                      <span class="home-product-item__sale-off-percent">10%</span>-->
-                    <!--                      <span class="home-product-item__sale-off-label">GIẢM</span>-->
-                    <!--                    </div>-->
-                </a>
-            </div>
 
+                </a>
             </div>
-  
+            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
+                <a class="home-product-item" onclick="openModal(2)">
+                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
+                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
+                    <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">1.000.000đ</span>
+                    </div>
+                    <div class="home-product-item__action">
+                        <!--                      js add home-product-item__like--liked css to liked-->
+                        <span class="home-product-item__like home-product-item__like--liked">
+                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                </span>
+                        <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
+                    </div>
+
+                </a>
+            </div>
+            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
+                <a class="home-product-item" onclick="openModal(2)">
+                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
+                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
+                    <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">1.000.000đ</span>
+                    </div>
+                    <div class="home-product-item__action">
+                        <!--                      js add home-product-item__like--liked css to liked-->
+                        <span class="home-product-item__like home-product-item__like--liked">
+                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                </span>
+                        <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
+                    </div>
+
+                </a>
+            </div>
+            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
+                <a class="home-product-item" onclick="openModal(2)">
+                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
+                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
+                    <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">1.000.000đ</span>
+                    </div>
+                    <div class="home-product-item__action">
+                        <!--                      js add home-product-item__like--liked css to liked-->
+                        <span class="home-product-item__like home-product-item__like--liked">
+                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                </span>
+                        <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
+                    </div>
+
+                </a>
+            </div>
+            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
+                <a class="home-product-item" onclick="openModal(2)">
+                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
+                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
+                    <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">1.000.000đ</span>
+                    </div>
+                    <div class="home-product-item__action">
+                        <!--                      js add home-product-item__like--liked css to liked-->
+                        <span class="home-product-item__like home-product-item__like--liked">
+                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                </span>
+                        <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
+                    </div>
+
+                </a>
+            </div>
+            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
+                <a class="home-product-item" onclick="openModal(2)">
+                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
+                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
+                    <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">1.000.000đ</span>
+                    </div>
+                    <div class="home-product-item__action">
+                        <!--                      js add home-product-item__like--liked css to liked-->
+                        <span class="home-product-item__like home-product-item__like--liked">
+                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                </span>
+                        <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
+                    </div>
+
+                </a>
+            </div>
+            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
+                <a class="home-product-item" onclick="openModal(2)">
+                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
+                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
+                    <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">1.000.000đ</span>
+                    </div>
+                    <div class="home-product-item__action">
+                        <!--                      js add home-product-item__like--liked css to liked-->
+                        <span class="home-product-item__like home-product-item__like--liked">
+                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                </span>
+                        <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
+                    </div>
+
+                </a>
+            </div>
+            <div class="scrollmenu__horizal-item parent-div" style="padding: 10px;">
+                <a class="home-product-item" onclick="openModal(2)">
+                    <div class="home-product-item__img" style="background-image: url(./asset/img/aaiphone-11-pro-256gb-black-400x460.png);"></div>
+                    <h4 class="home-product-item__name">Set duong tang sdpkhk lui hahskdh hciuhnjkahsg</h4>
+                    <div class="home-product-item__price">
+                        <span class="home-product-item__price-old">1.200.000đ</span>
+                        <span class="home-product-item__price-current">1.000.000đ</span>
+                    </div>
+                    <div class="home-product-item__action">
+                        <!--                      js add home-product-item__like--liked css to liked-->
+                        <span class="home-product-item__like home-product-item__like--liked">
+                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                </span>
+                        <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="home-product-item__star-gold fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <!--                      <span class="home-product-item__sold">88 đã bán</span>-->
+                    </div>
+
+                </a>
+            </div>
         </div>
     </div>
     <!-- -------------------------------------------- -->
-      </section>
-
-
-
-    <footer class="footer">
-        <div class="grid">
-            <div class="grid__row">
-                <div class="grid__collumn-2-4">
-                    <h3 class="footer__heading">Chăm sóc khách hàng</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="grid__collumn-2-4">
-                    <h3 class="footer__heading">Giới thiệu</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Giới thiệu</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Tuyển dụng</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Điều khoản</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="grid__collumn-2-4">
-                    <h3 class="footer__heading">Chọn danh mục</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Giới thiệu</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Tuyển dụng</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Điều khoản</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="grid__collumn-2-4">
-                    <h3 class="footer__heading">Theo dõi chúng tôi</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">
-                                <i class="footer-item__icon fab fa-facebook"></i>
-                                Facebook
-                            </a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">
-                                <i class="footer-item__icon fab fa-instagram"></i>
-                                Instagram
-                            </a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">
-                                <i class="footer-item__icon fab fa-linkedin"></i>
-                                Linkedin
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="grid__collumn-2-4">
-                    <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
-                    <div class="footer__download">
-                        <img src="./asset/img/qr_code.png" alt="Download QR" class="footer__download-qr">
-                        <div class="footer__download-app">
-                            <a href="" class="footer__download-app-link">
-                                <img src="./asset/img/gg_play.png" alt="Google Play" class="footer__download-app-img">
-                            </a>
-                            <a href="" class="footer__download-app-link">
-                                <img src="./asset/img/app_store.png" alt="App Store" class="footer__download-app-img">
-                            </a>
-                        </div>
+</section>
+<footer class="footer">
+    <div class="grid">
+        <div class="grid__row">
+            <div class="grid__collumn-2-4">
+                <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__collumn-2-4">
+                <h3 class="footer__heading">Giới thiệu</h3>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Giới thiệu</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Tuyển dụng</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Điều khoản</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__collumn-2-4">
+                <h3 class="footer__heading">Chọn danh mục</h3>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Giới thiệu</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Tuyển dụng</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Điều khoản</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__collumn-2-4">
+                <h3 class="footer__heading">Theo dõi chúng tôi</h3>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">
+                            <i class="footer-item__icon fab fa-facebook"></i>
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">
+                            <i class="footer-item__icon fab fa-instagram"></i>
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">
+                            <i class="footer-item__icon fab fa-linkedin"></i>
+                            Linkedin
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__collumn-2-4">
+                <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                <div class="footer__download">
+                    <img src="./asset/img/qr_code.png" alt="Download QR" class="footer__download-qr">
+                    <div class="footer__download-app">
+                        <a href="" class="footer__download-app-link">
+                            <img src="./asset/img/gg_play.png" alt="Google Play" class="footer__download-app-img">
+                        </a>
+                        <a href="" class="footer__download-app-link">
+                            <img src="./asset/img/app_store.png" alt="App Store" class="footer__download-app-img">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer__bottom">
-            <div class="grid">
-                <div class="grid__row">
-                    <p class="footer__text">© 2018. Công ty cổ phần Thế Giới Di Động. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020. Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. Xem chính sách sử dụng</p>
-                </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="grid">
+            <div class="grid__row">
+                <p class="footer__text">© 2018. Công ty cổ phần Thế Giới Di Động. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020. Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. Xem chính sách sử dụng</p>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+    <!-- Modal content -->
+    <div class="product-view">
+        <p id="close-btn" onclick="closeModal()" class="close-btn close">&times;</p>
+        <div class="product-big-image">
+            <img src="./asset/img/aaiphone-11-pro-256gb-black-400x460.png" alt="">
+        </div>
+        <div class="product-big-desc">
+            <h2>product desc big</h2>
+            <h5>Product code: 32312</h5>
+            <h5>Brand: Malhskjdh</h5>
+            <h6><a href="#">1 review</a><a href="#">View all review</a></h6>
+            <div class="priceModal">
+                <h4 class="oldprice"><del>Rs. 2260</del><sup>25% OFF</sup></h4>
+                <h4 class="newprice">Rs. 1999 + <abbr>99 Shipping</abbr></h4>
+            </div>
+            <button class="buybutton zoom btn-add-card-js">Thêm vào giỏ hàng</button>
+            <button class="detailbutton zoom">Xem chi tiết</button>
+            <p><b>Warranty :</b> 1day sdakshjfhaskdadlasdjsahdfljsdk</p>
+            <p><b>Sippng :</b>sakjdgajshdlkjdkdkkhksahfkasd.alsdhkaksjasasdsadfasdfasdcsdafsdf</p>
+        </div>
+    </div>
+</div>
+<!-- end modal -->
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <p id="closeModal2" onclick="closeModal()" class="close">&times;</p>
+        <p>Some text in the Modal..2</p>
+    </div>
+</div>
+<!-- end modal -->
+<script src="./asset/js/modal.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).on('click', '.btn-add-card-js', function (e){
+        e.preventDefault();//bo tat ca cac su kien dang co cua the nay
+        if($(this).hasClass('disabled')){
+            return false;
+        }
+        $(document).find('.btn-add-card-js').addClass('disabled');
+        var parent = $(this).parents('.product-view');//lay thang cha ngoai cung
+        var cart = $(document).find('#shop-cart');
+        var src = parent.find('img').attr('src');
+        var buttonTop = $(this).offset().top;//lay vi tri top cua the btn (this)
+        var buttonLeft = $(this).offset().left;
+        // tao anh khi bam nut
+        $('<img />', {
+            src: src,
+            class: 'img-fly-pro',
+        }).appendTo('body').css({//set up vi tri cho img moi tao (o tren the btn)
+            'top': buttonTop - 40,
+            'left': buttonLeft + $(this).width() - 30,
+        });
+        //ham thuc hien cong việc sau 500ms
+        setTimeout(function (){
+            $(document).find('.img-fly-pro').css({
+                'top': cart.offset().top + 30,
+                'left': cart.offset().left - 20,
+            });
+            setTimeout(function (){
+                // xoa anh di sau khi chay len gio hang
+                $(document).find('.img-fly-pro').remove();
+                // +1 vao dem item
+                var citem = parseInt(cart.find('#count_item').data('count'))+1;
+                cart.find('#count_item').text(citem).data('count', citem);
 
-      <!-- The Modal -->
-    <div id="myModal2" class="modal">
+                $(document).find('.btn-add-card-js').removeClass('disabled');
+            },800);
+        },400);
+    })
+</script>
+<script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
 
-      <!-- Modal content -->
-      <div class="product-view">
-          <p id="close-btn" onclick="closeModal()" class="close-btn close">&times;</p>
-          <div class="product-big-image">
-              <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpgBanner-xiaomi2.jpg" alt="">
-          </div>
-          <div class="product-big-desc">
-              <h2>product desc big</h2>
-              <h5>Product code: 32312</h5>
-              <h5>Brand: Malhskjdh</h5>
-              <h6><a href="#">1 review</a><a href="#">View all review</a></h6>
-              <div class="priceModal">
-                  <h4 class="oldprice"><del>Rs. 2260</del><sup>25% OFF</sup></h4>
-                  <h4 class="newprice">Rs. 1999 + <abbr>99 Shipping</abbr></h4>
-              </div>
-              <button class="buybutton zoom">Thêm vào giỏ hàng</button>
-              <button class="detailbutton zoom">Xem chi tiết</button>
-              <p><b>Warranty :</b> 1day sdakshjfhaskdadlasdjsahdfljsdk</p>
-              <p><b>Sippng :</b>sakjdgajshdlkjdkdkkhksahfkasd.alsdhkaksjasasdsadfasdfasdcsdafsdf</p>
-          </div>
-      </div>
-
-  </div>
-  <!-- end modal -->
-  <!-- The Modal -->
-  <div id="myModal1" class="modal">
-
-      <!-- Modal content -->
-      <div class="modal-content">
-          <p id="closeModal2" onclick="closeModal()" class="close">&times;</p>
-          <p>Some text in the Modal..2</p>
-      </div>
-
-  </div>
-  <!-- end modal -->
-    <script>
-      // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
+    function scrollFunction() {
         if (document.body.scrollTop > 23.8 || document.documentElement.scrollTop > 23.8) {
-          $("#nav_bar").addClass("navbar-fixed");
-          $("#grid_fixed").addClass("grid-fixed");
+            $("#nav_bar").addClass("navbar-fixed");
+            $("#grid_fixed").addClass("grid-fixed");
         } else {
-          $("#nav_bar").removeClass("navbar-fixed");
-          $("#grid_fixed").removeClass("grid-fixed");
+            $("#nav_bar").removeClass("navbar-fixed");
+            $("#grid_fixed").removeClass("grid-fixed");
         }
-      }
-      </script>
-    <script src="./asset/js/app.js"></script>
-    <script src="./asset/js/modal.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#leftArrow").click(function(){
-                var leftPos = $('#scrollmenu').scrollLeft();
-                $("#scrollmenu").animate({scrollLeft: leftPos - 600}, 800);
-            });
-            $("#rightArrow").click(function () { 
-                var leftPos = $('#scrollmenu').scrollLeft();
-                $("#scrollmenu").animate({scrollLeft: leftPos + 600}, 800);
-            });
+    }
+</script>
+<script>
+    $(document).ready(function(){
+        $("#leftArrow").click(function(){
+            var leftPos = $('#scrollmenu').scrollLeft();
+            $("#scrollmenu").animate({scrollLeft: leftPos - 600}, 800);
         });
-    </script>
-    <script>
-        $(document).ready(function(){
-            $("#leftArrow2").click(function(){
-                var leftPos = $('#scrollmenu2').scrollLeft();
-                $("#scrollmenu2").animate({scrollLeft: leftPos - 600}, 800);
-            });
-            $("#rightArrow2").click(function () { 
-                var leftPos = $('#scrollmenu2').scrollLeft();
-                $("#scrollmenu2").animate({scrollLeft: leftPos + 600}, 800);
-            });
+        $("#rightArrow").click(function () {
+            var leftPos = $('#scrollmenu').scrollLeft();
+            $("#scrollmenu").animate({scrollLeft: leftPos + 600}, 800);
         });
-    </script>
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#leftArrow2").click(function(){
+            var leftPos = $('#scrollmenu2').scrollLeft();
+            $("#scrollmenu2").animate({scrollLeft: leftPos - 600}, 800);
+        });
+        $("#rightArrow2").click(function () {
+            var leftPos = $('#scrollmenu2').scrollLeft();
+            $("#scrollmenu2").animate({scrollLeft: leftPos + 600}, 800);
+        });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#leftArrow3").click(function(){
+            var leftPos = $('.section-category-list__ul').scrollLeft();
+            $(".section-category-list__ul").animate({scrollLeft: leftPos - 600}, 800);
+        });
+        $("#rightArrow3").click(function () {
+            var leftPos = $('.section-category-list__ul').scrollLeft();
+            $(".section-category-list__ul").animate({scrollLeft: leftPos + 600}, 800);
+        });
+    });
+</script>
 <!-- --------------------------------------------- -->
+<!-- script modal -->
+<script type="text/javascript">
+    var span, modal;
+    function openModal (id) {
+        //alert(id)
+        modal = document.getElementById("myModal"+id);
+        modal.style.display = "block";
+    }
 
-    <!-- script modal -->
-    <script type="text/javascript">
-        var span, modal;
-        function openModal (id) {
-            //alert(id)
-            modal = document.getElementById("myModal"+id);
-            modal.style.display = "block";
-        }
-        
-        
-        // When the user clicks on <span> (x), close the modal
-        function closeModal() {
+
+    // When the user clicks on <span> (x), close the modal
+    function closeModal() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
             modal.style.display = "none";
         }
-
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        };
-    </script>
-    <!-- end script modal -->
-    
-      
-  </body>
+    };
+</script>
+<!-- end script modal -->
+</body>
 </html>

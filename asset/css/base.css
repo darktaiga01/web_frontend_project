@@ -1,8 +1,10 @@
 :root {
   --white-color: #fff;
-  --primary-color: #ff5a32;
-  --primary_dark_color: #e83222;
-  --second-color: #ff8b40;
+  --primary-color: #0082ff;
+  --primary_dark_color: #001eff;
+  --second-color: #00e5ff;
+  --third-color: #009bff;
+  --light-text-color: #00f8ff;
   --black-color: #000;
   --text-color: #333; 
   --header-height: 105px;
