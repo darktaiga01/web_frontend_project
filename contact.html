@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="asset/css/product.css" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/normalize.min.css" />
+    <link rel="stylesheet" href="./asset/css/base.css" />
+    <link rel="stylesheet" href="./asset/css/main.css" />
+    <link rel="stylesheet" href="./asset/css/nav_bar.css" />
+    <link rel="stylesheet" href="./asset/css/nav_bar_bt.css" />
+    <link rel="stylesheet" href="./asset/css/button.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-5.15.1-web/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel= "stylesheet" href="asset/css/grid.css">
+    <link rel="stylesheet" href="asset/css/contact.css">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/css/button.css" />
+    <link rel="stylesheet" href="./asset/css/footer.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div id="grid_fixed" class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-separate">
+                            Vào cửa hàng trên ứng dụng F8 shop
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook-square"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fas fa-bell"></i>
+                                Thông báo
+                                <!-- <div class="header__notify">
+                        <header class="header__notify-header">
+                          <h3>Thông báo mới nhận</h3>
+                        </header>
+                      </div> -->
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fas fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item-separate">
+                            Đăng ký
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            Đăng nhập
+                        </li>
+                    </ul>
+                </nav>
+                <div id="nav_bar" class="header-with-search">
+                    <div class="navbar">
+                        <nav class="main_nav">
+                            <div class="header__logo">
+                                <label class="logo">CodingNepal</label>
+                            </div>
+                            <div class="header__search">
+                                <input type="text" placeholder="Tìm kiếm" class="header__search-input" />
+
+                                <button class="header__search-btn">
+                                    <i class="header__search-btn-icon fas fa-search"></i>
+                                </button>
+                            </div>
+                            <ul>
+                                <li><a class="active" href="#">Home</a></li>
+                                <li>
+                                    <a href="#">Features
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                    <ul>
+                                        <li><a href="./shop.html">Python</a></li>
+                                        <li><a href="#">JQuery</a></li>
+                                        <li><a href="#">Javascript</a></li>
+                                    </ul>
+                                </li>
+                                <li class="li_menu3">
+                                    <a href="#">Web Design
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                    <ul>
+                                        <li><a href="#">Front End</a></li>
+                                        <li><a href="#">Back End</a></li>
+                                        <li>
+                                            <a href="#">Others
+                                                <i class="fas fa-caret-right"></i>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#">Links</a></li>
+                                                <li><a href="#">Works</a></li>
+                                                <li><a href="#">Status</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="li_menu4"><a href="#">Feedback</a></li>
+                            </ul>
+                            <div class="header__cart">
+                                <div class="header__cart-wrap">
+                                    <i class="header__cart-icon fas fa-shopping-cart"></i>
+                                    <span class="header__cart-notice">3</span>
+                                    <!-- no cart: header__cart-list--no-cart -->
+                                    <div class="header__cart-list">
+                                        <img src="./asset/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                        <span class="header__cart-no-cart-msg">
+                                                Chưa có sản phẩm
+                                            </span>
+                                        <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+
+
+                                        <a href="#" class="header__cart-view-cart btn--primary">Xem gio hang</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- <div class="dropdown">
+                      <a id="icon_nav" href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+                      <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                      </div>
+                    </div> -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- Contact form -->
+    <div class="container">
+
+    </div>
+
+    <!-- map -->
+    <div class="map" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.232428814673!2d106.80161941455567!3d10.869918392258155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527587e9ad5bf%3A0xafa66f9c8be3c91!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiDEkEhRRyBUUC5IQ00!5e0!3m2!1svi!2s!4v1608633764570!5m2!1svi!2s"  height="500px" width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    <!-- Contact Section Begin -->
+    <section class="contact-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="contact__text">
+                        <div class="section-title">
+                            <h2>Contact Us</h2>
+                            <p>As you might expect of a company that began as a high-end interiors contractor, we pay
+                                strict attention.</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <h4>Việt Nam</h4>
+                                <p>Khu phố 6 phường Linh Trung quận Thủ Đức <br />0123 456 789</p>
+                            </li>
+                            <li>
+                                <h4>Việt Nam</h4>
+                                <p>Khu phố 6 phường Linh Trung quận Thủ Đức <br />0123 456 789</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6" style="margin-top: 40px">
+                    <div class="contact__form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Địa chỉ">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Số điện thoại ">
+                                </div>
+                                <div class="col-lg-12">
+                                    <textarea placeholder="Message"></textarea>
+                                    <button type="submit" class="site-btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end-->
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__collumn-2-4">
+                    <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__collumn-2-4">
+                    <h3 class="footer__heading">Giới thiệu</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều khoản</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__collumn-2-4">
+                    <h3 class="footer__heading">Chọn danh mục</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều khoản</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__collumn-2-4">
+                    <h3 class="footer__heading">Theo dõi chúng tôi</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-linkedin"></i>
+                                Linkedin
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__collumn-2-4">
+                    <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer__download">
+                        <img src="./asset/img/qr_code.png" alt="Download QR" class="footer__download-qr">
+                        <div class="footer__download-app">
+                            <a href="" class="footer__download-app-link">
+                                <img src="./asset/img/gg_play.png" alt="Google Play" class="footer__download-app-img">
+                            </a>
+                            <a href="" class="footer__download-app-link">
+                                <img src="./asset/img/app_store.png" alt="App Store" class="footer__download-app-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="grid">
+                <div class="grid__row">
+                    <p class="footer__text">© 2018. Công ty cổ phần Thế Giới Di Động. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020. Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. Xem chính sách sử dụng</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- The Modal -->
+    <div id="myModal2" class="modal">
+
+        <!-- Modal content -->
+        <div class="product-view">
+            <p id="close-btn" onclick="closeModal()" class="close-btn close">&times;</p>
+            <div class="product-big-image">
+                <img src="./asset/img/images/Banner-xiaomi-J3SBanner-pc-global.jpgBanner-xiaomi2.jpg" alt="">
+            </div>
+            <div class="product-big-desc">
+                <h2>product desc big</h2>
+                <h5>Product code: 32312</h5>
+                <h5>Brand: Malhskjdh</h5>
+                <h6><a href="#">1 review</a><a href="#">View all review</a></h6>
+                <div class="priceModal">
+                    <h4 class="oldprice"><del>Rs. 2260</del><sup>25% OFF</sup></h4>
+                    <h4 class="newprice">Rs. 1999 + <abbr>99 Shipping</abbr></h4>
+                </div>
+                <button class="buybutton zoom">Thêm vào giỏ hàng</button>
+                <button class="detailbutton zoom">Xem chi tiết</button>
+                <p><b>Warranty :</b> 1day sdakshjfhaskdadlasdjsahdfljsdk</p>
+                <p><b>Sippng :</b>sakjdgajshdlkjdkdkkhksahfkasd.alsdhkaksjasasdsadfasdfasdcsdafsdf</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- end modal -->
+    <!-- The Modal -->
+    <div id="myModal1" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <p id="closeModal2" onclick="closeModal()" class="close">&times;</p>
+            <p>Some text in the Modal..2</p>
+        </div>
+
+    </div>
+</body>
+</html>
