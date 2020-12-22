@@ -68,6 +68,17 @@ div .left-turn2 a {
 div .left-turn2 a:hover .leftArrow2__icon{
   color: var(--primary-color);
 }
+div .left-turn3 {
+  position: absolute;
+  left: 9px;
+  margin-top: 336px;
+}
+div .left-turn3 a {
+  display: inline-block;
+}
+div .left-turn3 a:hover .leftArrow2__icon{
+  color: var(--primary-color);
+}
 
 div .right-turn {
   position: absolute;
@@ -93,6 +104,19 @@ div .right-turn2 a {
 }
 
 div .right-turn2 a:hover .rightArrow2__icon{
+  color: var(--primary-color);
+}
+
+div .right-turn3 {
+  position: absolute;
+  right: 4px;
+  margin-top: 336px;
+}
+div .right-turn3 a {
+  display: inline-block;
+}
+
+div .right-turn3 a:hover .rightArrow2__icon{
   color: var(--primary-color);
 }
 
