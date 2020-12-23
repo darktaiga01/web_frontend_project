@@ -1,8 +1,9 @@
 .section-category{
-    margin-top: 39px;
+    margin-top: 4px;
     background-color: var(--white-color);
     padding-bottom: 44px;
-    border-radius: 2px;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 4px rgba(0,0,0,0.05);
 }
 
 .section-category-list__header__title{

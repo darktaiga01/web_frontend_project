@@ -29,7 +29,7 @@ body {
   /* position: fixed;
   top: 0; */
   width: 100%;
-  max-width: 1700px;
+  max-width: 1353px;
   margin: 0 auto;
 }
 .navbar .dropdown {
@@ -208,7 +208,7 @@ body {
 @media screen and (max-width: 10px) {
   .header__navbar,
   .main_nav
-    div:not(:first-child):not(.header__cart):not(.dropdown):not(.dropdown-content),
+  div:not(:first-child):not(.header__cart):not(.dropdown):not(.dropdown-content),
   .main_nav ul {
     display: none;
   }

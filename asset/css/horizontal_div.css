@@ -1,17 +1,18 @@
 .new-products{
-  padding-top: 15px;
-  margin-top: 53px;
+  padding-top: 7px;
+  margin-top: 12px;
   background-color: white;
   padding-bottom: 25px;
   margin-bottom: 36px;
-  border-radius: 2.5px;
+  border-radius: 3.5px;
+  box-shadow: 0 0 4px 4px rgba(0,0,0,0.05);
 }
 div.scrollmenu {
   background-color: #F5F5F5;
   overflow: auto;
   white-space: nowrap;
-  margin-left: 80px;
-  margin-right: 90px;
+  margin-left: 54px;
+  margin-right: 66px;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   overflow-y: hidden; /* Hide horizontal scrollbar */
   padding-bottom: 7px;
@@ -43,7 +44,7 @@ cursor: pointer;
 }
 div .left-turn {
   position: absolute;
-  left: 20px;
+  left: 110px;
   margin-top: 387px;
   margin-left: 0;
 }
@@ -67,7 +68,7 @@ div .left-turn a:hover .leftArrow__icon{
 
 div .left-turn2 {
   position: absolute;
-  left: 29px;
+  left: 110px;
   margin-top: 170px;
 }
 div .left-turn2 a {
@@ -78,7 +79,7 @@ div .left-turn2 a:hover .leftArrow2__icon{
 }
 div .left-turn3 {
   position: absolute;
-  left: 9px;
+  left: 110px;
   margin-top: 298px;
 }
 div .left-turn3 a {
@@ -90,7 +91,7 @@ div .left-turn3 a:hover .leftArrow2__icon{
 
 div .right-turn {
   position: absolute;
-  right: 29px;
+  right: 117px;
   margin-top: 388px;
   margin-right: 0;
 }
@@ -104,7 +105,7 @@ div .right-turn a {
 
 div .right-turn2 {
   position: absolute;
-  right: 32px;
+  right: 117px;
   margin-top: 170px;
 }
 div .right-turn2 a {
@@ -117,7 +118,7 @@ div .right-turn2 a:hover .rightArrow2__icon{
 
 div .right-turn3 {
   position: absolute;
-  right: 4px;
+  right: 117px;
   margin-top: 298px;
 }
 div .right-turn3 a {

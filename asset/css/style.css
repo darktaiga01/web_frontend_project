@@ -10,7 +10,9 @@ hr.dashed {
   text-transform: uppercase;
   margin: 18px 0 27px 98px;
 }
-
+.area-title1 {
+  margin: 8px 0 27px 98px;
+}
 .responsive {
   width: 100%;
   max-width: 1691px;
@@ -26,4 +28,38 @@ hr.dashed {
 
 .openModal {
   display: inline-block;
+}
+.parent_banner{
+  width: 100%;
+  height: auto;
+  /*align-items: center;*/
+  position: fixed;
+  top: 179px;
+  z-index: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1511px;
+  min-width: 1180px;
+}
+/*home-banner-noel{*/
+/*  width: ;*/
+/*}*/
+.banner_ghim{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1700px;
+  min-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+.left_banner{
+  /*position: fixed;*/
+  left: 831.5px; top: 120px;
+}
+.right_banner{
+  /*position: fixed;*/
+  right: 831.5px; top: 120px;
+}
+.lunar.noel.other:before {
+  background: transparent url(./asset/img/noennnn/bg-top-min.png) no-repeat center top;
 }

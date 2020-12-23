@@ -320,11 +320,15 @@
   color: #f53e2d;
 }
 section {
-  max-width: 1700px;
+  max-width: 1517px;
   width: 100%;
   min-width: 980px;
   margin: 0 auto 0;
   position: relative;
+  display: block;
+}
+.home-main{
+  padding: 0 100px;
 }
 div .cart h3 {
   font-size: 20px;

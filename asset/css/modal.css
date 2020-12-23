@@ -2,7 +2,7 @@
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
@@ -56,7 +56,7 @@
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
-  background-attachment: #ffffff;
+  background-attachment: var(--white-color);
   overflow: auto; /* Enable scroll if needed */
 }
 .close-btn {
@@ -164,6 +164,7 @@
 
 body{
   position: relative;
+  background: transparent url(../../asset/img/noennnn/bg-top-min.png) no-repeat center top;
 }
 .img-fly-pro{
   position: absolute;
